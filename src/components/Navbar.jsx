@@ -111,7 +111,7 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               {windowWidth > 805 && (
                 <a
-                  href="https://drive.google.com/file/d/1i78TB3Jf12kN7_LvIWvCUg6dCZH5OarO/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/19ZMPcnlUa6SkGUMNKmRz5Qtf4BncrEc-/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative group bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold py-2.5 px-6 rounded-xl text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25 overflow-hidden"
@@ -172,6 +172,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
