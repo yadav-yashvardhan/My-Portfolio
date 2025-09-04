@@ -32,24 +32,24 @@ const Projects = () => {
   // Projects data with enhanced properties
   const projects = [
     {
-      id: 1,
+      id: 2,
       title: 'baskito',
       description: "A full-featured e-commerce platform with real-time inventory management, secure payment processing, and admin dashboard.",
       image: 'https://placehold.co/600x400/1a1a1a/9333ea?text=baskito',
       category: 'fullstack',
-      techStack: ['Node.js', 'Express', 'MongoDB', 'HTML','javascript'],
+      techStack: ['Node.js', 'Express', 'MongoDB', 'HTML','JavaScript'],
       liveUrl: '',
       githubUrl: 'https://github.com/yadav-yashvardhan/Baskito-Grocery-Project',
       featured: true,
       status: 'Completed'
     },
     {
-      id: 2,
+      id: 3,
       title: 'RecipeFinder',
       description: 'A smart recipe suggestion app that recommends dishes, ingredients, and cooking instructions based on the ingredients you already have.',
       image: 'https://placehold.co/600x400/1a1a1a/9333ea?text=RecipeFinder',
       category: 'fullstack',
-      techStack: ['React', 'API', 'javascript','HTML','Tailwind CSS'],
+      techStack: ['React', 'API', 'JavaScript','HTML','Tailwind CSS'],
       liveUrl: 'https://recipes-idea-project-0oxy.onrender.com',
       githubUrl: 'https://github.com/yadav-yashvardhan/Recipes-Idea-Project',
       featured: true,
@@ -80,7 +80,7 @@ const Projects = () => {
       status: 'Live'
     },
 {
-  id: 5,
+  id: 2,
   title: 'SwiftLogistics',
   description: "A full-stack logistics management platform where users can add multiple pickup and drop locations with items simultaneously.",
   image: 'https://placehold.co/600x400/1a1a1a/3b82f6?text=SwiftLogistics',
@@ -349,3 +349,4 @@ const Projects = () => {
 
 
 export default Projects;
+
