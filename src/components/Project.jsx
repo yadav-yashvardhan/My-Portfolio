@@ -291,7 +291,7 @@ const Projects = () => {
         {/* View More Section */}
         <div className="mt-8 sm:mt-12 md:mt-16 text-center">
           <a
-            href="https://github.com/Nabhyadav6829"
+            href="https://github.com/yadav-yashvardhan"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-white/5 backdrop-blur-sm text-white font-semibold text-sm sm:text-base rounded-2xl border border-purple-500/20 hover:bg-purple-600/10 hover:border-purple-500/40 transition-all duration-300 group"
@@ -347,3 +347,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
