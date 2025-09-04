@@ -78,7 +78,20 @@ const Projects = () => {
       githubUrl: 'https://github.com/yadav-yashvardhan/My-Portfolio',
       featured: false,
       status: 'Live'
-    }
+    },
+{
+  id: 5,
+  title: 'SwiftLogistics',
+  description: "A full-stack logistics management platform where users can add multiple pickup and drop locations with items simultaneously.",
+  image: 'https://placehold.co/600x400/1a1a1a/3b82f6?text=SwiftLogistics',
+  category: 'fullstack',
+  techStack: ['MongoDB', 'Express', 'React', 'Node.js', 'Tailwind CSS'],
+  liveUrl: 'https://swiftlogistics-d09a.onrender.com',
+  githubUrl: 'https://github.com/yadav-yashvardhan/SwiftLogistics',
+  featured: true,
+  status: 'Completed'
+}
+
   ];
 
   // Filter projects based on selected category
@@ -333,5 +346,6 @@ const Projects = () => {
     </section>
   );
 };
+
 
 export default Projects;
